@@ -1,0 +1,255 @@
+.rectangle {
+  position: absolute;
+  height: 103.73%;
+  width: 100%;
+  top: -1.87%;
+  right: 0;
+  bottom: -1.87%;
+  left: 0;
+}
+.border,
+.capIcon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  top: 0;
+  right: 2.41px;
+  border-radius: 2.77px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 22.82px;
+  height: 11.76px;
+  opacity: 0.35;
+}
+.capIcon {
+  top: 3.8px;
+  right: 0;
+  width: 1.38px;
+  height: 4.15px;
+  opacity: 0.4;
+}
+.capacity {
+  position: absolute;
+  top: 2.07px;
+  right: 4.49px;
+  border-radius: 1.38px;
+  background-color: #000;
+  width: 18.67px;
+  height: 7.61px;
+}
+.battery {
+  position: absolute;
+  top: 17.16px;
+  right: 15.22px;
+  width: 25.24px;
+  height: 11.76px;
+}
+.wifiIcon {
+  position: relative;
+  width: 15.84px;
+  height: 11.38px;
+}
+.cellularConnectionIcon {
+  position: relative;
+  width: 17.63px;
+  height: 11.06px;
+}
+.span {
+  letter-spacing: -0.29px;
+}
+.time,
+.timeStyle {
+  position: absolute;
+  width: 56.02px;
+}
+.time {
+  top: calc(50% - 8.19px);
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.timeStyle {
+  top: 12.66px;
+  left: 21.78px;
+  height: 21.78px;
+}
+.iphoneXstatusBarsstatusBa {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 195px);
+  width: 389px;
+  height: 44px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14.52px;
+  color: #000;
+  font-family: "SF Pro Text";
+}
+.iphone13statusBarwhite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 390px;
+  height: 44px;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.signInTo {
+  margin-left: -500px;
+  position: absolute;
+  top: 152px;
+  left: 00px;
+  left: calc(50% - 91px);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.email,
+.password {
+  position: absolute;
+  top: 214px;
+  left: 24px;
+  line-height: 24px;
+}
+.password {
+  top: 318px;
+}
+.forgotPassword {
+  text-decoration: none;
+  position: absolute;
+  top: 410px;
+  left: 252px;
+}
+.frameChild {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+.ohsm {
+  position: relative;
+  line-height: 24px;
+}
+.groupParent {
+  position: absolute;
+  top: 92px;
+  left: 147px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  text-align: center;
+  font-size: 18px;
+  color: #e7319d;
+}
+.signInChild {
+  position: absolute;
+  top: 558px;
+  left: 24px;
+  background-color: #e6e8ec;
+  width: 93px;
+  height: 1px;
+}
+.orContinueWith {
+  position: absolute;
+  top: 546px;
+  left: 133px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #d1d5db;
+}
+.signInItem {
+  position: absolute;
+  top: 558px;
+  left: 274px;
+  background-color: #e6e8ec;
+  width: 92px;
+  height: 1px;
+}
+.googleIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label {
+  position: relative;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "DM Sans";
+  color: #333;
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid #bfdbfe;
+  padding: 16px 24px 16px 0;
+  background-color: #eff6ff;
+  position: absolute;
+  top: 602px;
+  left: 24px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  width: 342px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.dontHaveAn,
+.signUp {
+  position: relative;
+  line-height: 24px;
+}
+.dontHaveAn {
+  margin-left: -500px;
+  font-weight: 500;
+}
+.signUp {
+  color: #e7319d;
+}
+.dontHaveAnAccountParent {
+  position: absolute;
+  top: 762px;
+  left: calc(50% - 121px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.singleInputField {
+  border: 0;
+  background-color: transparent;
+  top: 246px;
+}
+.button1,
+.singleInputField,
+.singleInputFieldPassword {
+  width: 342px;
+  position: absolute;
+  left: 24px;
+}
+.singleInputFieldPassword {
+  border: 0;
+  background-color: transparent;
+  top: 350px;
+}
+.button1 {
+  top: 461px;
+}
+.signIn {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #374151;
+  font-family: "DM Sans";
+}

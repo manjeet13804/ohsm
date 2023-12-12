@@ -1,0 +1,703 @@
+.ohsm {
+  position: relative;
+  line-height: 110%;
+}
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 32px;
+}
+.solutions {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.buttonsGroup,
+.menuItem,
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menuItem {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 12px 8px;
+}
+.buttonsGroup,
+.textContainer {
+  justify-content: center;
+}
+.buttonsGroup {
+  gap: 16px;
+}
+.textContainer {
+  padding: 0 16px;
+}
+.button {
+  border-radius: 8px;
+  justify-content: center;
+  padding: 12px 8px;
+}
+.button,
+.button1,
+.buttonsGroup1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button1 {
+  border-radius: 8px;
+  background-color: #334155;
+  border: 1px solid #475569;
+  justify-content: center;
+  padding: 12px;
+}
+.buttonsGroup1 {
+  flex: 1;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.caption,
+.header {
+  align-self: stretch;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px 80px;
+  gap: 202px;
+}
+.caption {
+  position: relative;
+  letter-spacing: 3px;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: none;
+  color: #475569;
+}
+.mainHeadline,
+.secondaryHeadline {
+  align-self: stretch;
+  position: relative;
+  line-height: 110%;
+  font-weight: 800;
+}
+.mainHeadline {
+  font-size: 72px;
+  display: none;
+}
+.secondaryHeadline {
+  font-size: 56px;
+}
+.paragraph,
+.top {
+  align-self: stretch;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.paragraph {
+  position: relative;
+  font-size: 18px;
+  line-height: 160%;
+  display: none;
+}
+.iconJamIconsOutlineL {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.buttonText {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.button2,
+.textContainer2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+}
+.button2 {
+  border-radius: 8px;
+  background-color: #2563eb;
+  border: 2px solid #2563eb;
+  padding: 20px 24px;
+  font-size: 24px;
+  color: #fff;
+}
+.iconJamIconsOutlineL3 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button21 {
+  border-radius: 8px;
+  border: 2px solid #2563eb;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.iconJamIconsOutlineL4 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 0;
+}
+.textContainer4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  z-index: 1;
+}
+.iconJamIconsOutlineL5 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.text {
+  position: relative;
+  line-height: 140%;
+}
+.badge {
+  margin: 0 !important;
+  position: absolute;
+  top: 8px;
+  left: 24px;
+  border-radius: 12px;
+  background-color: #da1e28;
+  justify-content: center;
+  padding: 0.5px 5.5px;
+  z-index: 3;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+.badge,
+.button3,
+.buttonsGroup2,
+.sectionText {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+}
+.button3 {
+  border-radius: 8px;
+  justify-content: center;
+  padding: 12px 8px;
+  position: relative;
+}
+.buttonsGroup2,
+.sectionText {
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  color: #2563eb;
+}
+.sectionText {
+  width: 1280px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  text-align: left;
+  font-size: 20px;
+  color: #0f172a;
+  font-family: Roboto;
+}
+.plan {
+  color: #f85e9f;
+}
+.chooseYourPlanContainer {
+  position: relative;
+  font-weight: 900;
+}
+.switchOrCancel {
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+  color: silver;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 244.39px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.chooseYourPlanParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.feature,
+.text1 {
+  position: relative;
+}
+.feature {
+  line-height: 38px;
+  font-weight: 900;
+}
+.text1 {
+  line-height: 160%;
+}
+.listItemWith {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text3 {
+  flex: 1;
+  position: relative;
+  line-height: 160%;
+}
+.listItemWith2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.list {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 14px;
+  color: #fff;
+  font-family: Roboto;
+}
+.duoBasicInner,
+.featureParent,
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.featureParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 28px;
+}
+.duoBasicInner {
+  position: absolute;
+  top: 37px;
+  left: calc(50% - 70.5px);
+  width: 141px;
+  align-items: center;
+}
+.duoBasic {
+  position: relative;
+  width: 199px;
+  height: 577px;
+  text-align: left;
+}
+.starter {
+  align-self: stretch;
+  position: relative;
+  line-height: 38px;
+  font-weight: 900;
+}
+.listItemWith8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.text11 {
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+  width: 259px;
+  flex-shrink: 0;
+}
+.list1,
+.listItemWith16 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.list1 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Roboto;
+}
+.button4,
+.button5,
+.frameGroup {
+  display: flex;
+  align-items: center;
+}
+.button5 {
+  border-radius: 8px;
+  background-color: #4f46e5;
+  border: 1px solid #6366f1;
+  box-sizing: border-box;
+  height: 56px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 16px;
+}
+.button4,
+.frameGroup {
+  flex-direction: column;
+}
+.button4 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 2px 0;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-family: Roboto;
+}
+.frameGroup {
+  position: absolute;
+  top: 33.8px;
+  left: calc(50% - 130.38px);
+  width: 259px;
+  height: 508px;
+  justify-content: space-between;
+}
+.duoBasic1 {
+  position: relative;
+  border: 1px solid silver;
+  box-sizing: border-box;
+  width: 312px;
+  height: 577px;
+}
+.button7,
+.duoBasicParent {
+  display: flex;
+  flex-direction: row;
+}
+.button7 {
+  border-radius: 8px;
+  background-color: #4f46e5;
+  border: 1px solid #6366f1;
+  box-sizing: border-box;
+  width: 233px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.duoBasicParent {
+  position: absolute;
+  top: 0.2px;
+  left: 45.38px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.plans1 {
+  position: relative;
+  width: 1278px;
+  height: 577px;
+  font-size: 27px;
+}
+.frameParent,
+.plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameParent {
+  justify-content: flex-start;
+  gap: 40px;
+}
+.plans {
+  justify-content: center;
+  padding: 80px 81px;
+}
+.div,
+.whatIsOne {
+  position: absolute;
+  top: 22.84px;
+  left: 1227.88px;
+  line-height: 30px;
+}
+.whatIsOne {
+  top: 23.84px;
+  left: 23.88px;
+  font-size: 20px;
+  text-align: left;
+}
+.question {
+  position: relative;
+  background-color: #13151d;
+  width: 1278.75px;
+  height: 78px;
+}
+.questionParent {
+  gap: 24px;
+  text-align: right;
+}
+.faqs,
+.questionParent,
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.faqs {
+  padding: 80px 81px;
+  gap: 80px;
+}
+.section {
+  align-self: stretch;
+  background-color: #0a0f1b;
+  padding: 0 80px;
+  text-align: center;
+  font-size: 40px;
+  color: #f9f9f9;
+  font-family: Avenir;
+}
+.categories {
+  position: relative;
+  line-height: 110%;
+  font-weight: 500;
+}
+.footerComponentslinkfooter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0;
+}
+.footerComponentscolumn,
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.links {
+  align-self: stretch;
+  color: #e2e8f0;
+}
+.footerComponentscolumn {
+  flex: 1;
+}
+.textContainer8 {
+  justify-content: center;
+  padding: 0 4px;
+}
+.badge1,
+.columns,
+.footerComponentslinkfooter9,
+.textContainer8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.badge1 {
+  border-radius: 4px;
+  background-color: #e0e7ff;
+  height: 20px;
+  justify-content: center;
+  padding: 4px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #3730a3;
+}
+.columns,
+.footerComponentslinkfooter9 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 12px 0;
+  gap: 8px;
+}
+.columns {
+  border-bottom: 1px solid #334155;
+  align-items: flex-start;
+  padding: 48px 0;
+  gap: 48px;
+}
+.footerComponentslinkfooter30,
+.footerComponentsverticalMen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footerComponentslinkfooter30 {
+  padding: 12px 0;
+}
+.footerComponentsverticalMen {
+  flex: 1;
+  gap: 32px;
+}
+.appStoreFilled {
+  position: relative;
+  width: 119.66px;
+  height: 40px;
+}
+.button10 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.getItOn {
+  position: absolute;
+  top: 11.55%;
+  left: 30.37%;
+  -webkit-text-stroke: 0.2px #fff;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  position: absolute;
+  height: 42.39%;
+  width: 62.92%;
+  top: 42.61%;
+  right: 6.8%;
+  bottom: 15%;
+  left: 30.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  height: 33.58%;
+  width: 12.03%;
+  top: 48.55%;
+  right: 80.51%;
+  bottom: 17.87%;
+  left: 7.46%;
+}
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  height: 27.6%;
+  width: 9.26%;
+  top: 36.25%;
+  right: 75.56%;
+  bottom: 36.15%;
+  left: 15.18%;
+}
+.vectorIcon5,
+.vectorIcon6 {
+  height: 53.65%;
+  width: 8.22%;
+  top: 23.2%;
+  right: 84.37%;
+  bottom: 23.15%;
+  left: 7.41%;
+}
+.vectorIcon6 {
+  height: 32.15%;
+  width: 12.05%;
+  top: 17.85%;
+  right: 80.51%;
+  bottom: 50%;
+  left: 7.44%;
+}
+.googlePlay {
+  position: relative;
+  width: 135px;
+  height: 40px;
+}
+.appDownload,
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.appDownload {
+  justify-content: flex-end;
+  gap: 16px;
+  font-size: 8.38px;
+  color: #fff;
+  font-family: "Open Sans";
+}
+.bottom {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 24px 0;
+  gap: 32px;
+  color: #e2e8f0;
+}
+.footer,
+.pricing {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  background-color: #334155;
+  width: 1440px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.pricing {
+  position: relative;
+  background-color: #0a0f1b;
+  width: 100%;
+  height: 2280px;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Roboto;
+}
